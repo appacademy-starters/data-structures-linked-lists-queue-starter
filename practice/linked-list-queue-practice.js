@@ -51,6 +51,11 @@ const reverseLinkedList = head => {
 
 };
 
-const hasCycle = head => {
-
-};
+module.exports = {
+    listLength,
+    sumOfNodes,
+    averageValue,
+    findNthNode,
+    findMid,
+    reverseLinkedList
+}
