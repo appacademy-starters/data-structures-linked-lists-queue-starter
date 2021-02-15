@@ -46,6 +46,11 @@ class LinkedList {
         // Return value of head node
 
     }
+
+    print() {
+        // Print out the linked list
+        
+    }
 }
 
 module.exports = {
