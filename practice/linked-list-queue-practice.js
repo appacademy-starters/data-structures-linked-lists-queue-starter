@@ -25,37 +25,33 @@ class LinkedList {
         curr.next = newNode;
         return this.head;
     }
+
+    listLength() {
+
+    }
+
+    sumOfNodes() {
+
+    }
+
+    averageValue() {
+
+    }
+
+    findNthNode(n) {
+
+    }
+
+    findMid() {
+
+    }
+
+    reverseLinkedList() {
+
+    }
 }
 
-const listLength = head => {
-
-};
-
-const sumOfNodes = head => {
-
-};
-
-const averageValue = head => {
-
-};
-
-const findNthNode = (head, n) => {
-
-};
-
-const findMid = head => {
-
-};
-
-const reverseLinkedList = head => {
-
-};
-
 module.exports = {
-    listLength,
-    sumOfNodes,
-    averageValue,
-    findNthNode,
-    findMid,
-    reverseLinkedList
+    Node,
+    LinkedList
 }
