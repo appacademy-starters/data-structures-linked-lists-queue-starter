@@ -24,7 +24,7 @@ class SinglyLinkedList {
         while (curr.next) {
             curr = curr.next;
         }
-        
+
         curr.next = newNode;
         return this.head;
     }
@@ -61,11 +61,13 @@ class SinglyLinkedList {
     }
 
     reverse() {
-        // Returns a reversed version of the linked list
-        // Implement this as a singly linked list then as a doubly linked list
-        // Try implementing it by returning a new linked list then returning
-        // the original linked list reversed in place
-            // Does the time complexity change? How about space complexity?
+        // Returns a new reversed version of the linked list
+
+        // Write your hypothesis on the time complexity of this method here
+    }
+
+    reverseInPlace() {
+        // Reverses the linked list in-place
 
         // Write your hypothesis on the time complexity of this method here
     }
@@ -110,11 +112,13 @@ class DoublyLinkedList {
     }
 
     reverse() {
-        // Returns a reversed version of the linked list
-        // Implement this as a singly linked list then as a doubly linked list
-        // Try implementing it by returning a new linked list then returning
-        // the original linked list reversed in place
-            // Does the time complexity change? How about space complexity?
+        // Returns a new reversed version of the linked list
+
+        // Write your hypothesis on the time complexity of this method here
+    }
+
+    reverseInPlace() {
+        // Reverses the linked list in-place
 
         // Write your hypothesis on the time complexity of this method here
     }
