@@ -37,6 +37,7 @@ describe('Queue', () => {
     it('Should have head, tail and length properties', () => {
       expect(queue).to.have.property('head');
       expect(queue).to.have.property('tail');
+      expect(queue).to.have.property('length');
     });
 
     it('Should not implement an Array to store values', () => {
